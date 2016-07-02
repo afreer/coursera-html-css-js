@@ -26,10 +26,28 @@ Files:
     js/
         script.js
     
-### Todo
+### CSS responsive layout equal column height issue
 
-Todo: Make sections fill the available height in a row.
-Or make all sections the same height, i.e. the min height needed or something.
-https://css-tricks.com/fluid-width-equal-height-columns/?
+With the float based layout, adjacent sections with a different amount
+of text would end up with different heights.  This looked weird.
 
+I tried a number of things, but ultimately using the relatively new
+CSS flexbox styling did the trick fairly nicely.
+
+I abstracted this into two different CSS styling files:
+ 
+ # css/styles-reponsive-float.css
+ # css/styles-reponsive-flex.css
+
+You can experiment with the float vs. flex difference by uncommenting/commenting 
+the appropriate inclusion lines in index.html.
+
+caniuse.com revealed that "flexbox" support is very good, with 
+the possible exception of Internet Explorer. I tested IE11 on an old
+Windows 7 box and it still looked good, at least for this small assignment.
+
+These resources were very helpful for understanding flexboxes:
+ 
+ # https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ # There were others, but I think this one was the one that did the trick.
 
