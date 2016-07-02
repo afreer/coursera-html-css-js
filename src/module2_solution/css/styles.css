@@ -29,6 +29,7 @@ section {
     background-color: #DFDFDF;
     /*margin: 10px;*/
     clear: both;
+    overflow: hidden;
 
     /*box-sizing: content-box;*/
     height: 100%;
