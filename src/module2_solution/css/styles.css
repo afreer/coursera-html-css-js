@@ -10,11 +10,18 @@
 section {
     border: 1px solid black;
     background-color: #DFDFDF;
-    margin: 10px;
+    margin: 5px;
+    clear: both;
 }
 
 p {
     padding: 5px;    
+}
+
+ul {
+    padding: 5px;
+    list-style-type: square;
+    list-style-position: inside;
 }
 
 .section-title {
