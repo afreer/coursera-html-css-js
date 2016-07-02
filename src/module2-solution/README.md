@@ -7,11 +7,11 @@ is inspired by these frameworks, however.
 
 Overview:
 
- # Created folders: css, fonts, js, to match Twitter Bootstrap template.
- # Created css and js override files, styles.css and script.js,
+ * Created folders: css, fonts, js, to match Twitter Bootstrap template.
+ * Created css and js override files, styles.css and script.js,
     inspired by the course examples.
- # README.md: A little metadata/notes.
- # index.html: The main page.
+ * README.md: A little metadata/notes.
+ * index.html: The main page.
 
 Files:
 
@@ -36,8 +36,8 @@ CSS flexbox styling did the trick fairly nicely.
 
 I abstracted this into two different CSS styling files:
  
- # css/styles-reponsive-float.css
- # css/styles-reponsive-flex.css
+ * css/styles-reponsive-float.css
+ * css/styles-reponsive-flex.css
 
 You can experiment with the float vs. flex difference by uncommenting/commenting 
 the appropriate inclusion lines in index.html.
@@ -48,6 +48,6 @@ Windows 7 box and it still looked good, at least for this small assignment.
 
 These resources were very helpful for understanding flexboxes:
  
- # https://css-tricks.com/snippets/css/a-guide-to-flexbox/
- # There were others, but I think this one was the one that did the trick.
+ * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ * There were others, but I think this one was the one that did the trick.
 
