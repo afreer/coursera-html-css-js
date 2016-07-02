@@ -7,31 +7,45 @@
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+body {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    padding: 30px;
+}
+
 section {
-    border: 1px solid black;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
     background-color: #DFDFDF;
-    margin: 5px;
+    margin: 10px;
     clear: both;
 }
 
 p {
-    padding: 5px;    
+    padding: 5px 10px;    
 }
 
 ul {
-    padding: 5px;
+    padding: 5px 10px;
     list-style-type: square;
     list-style-position: inside;
 }
 
 .section-title {
     float: right;
-    border: 1px solid black;
     width: 10em;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    border-color: #000000;
     text-align: center;
-    padding: 5px;    
     font-size: 125%;
     font-weight: bold;
+    padding: 5px 10px;    
 }
 
 .section-content {
@@ -51,12 +65,6 @@ ul {
 #section-title-3 {
     background-color: #2A7E43;
     color: #FFFFFF;
-}
-
-h1 {
-    text-align: center;
-    font-size: 175%;
-    padding: 30px;
 }
 
 /* Simple Responsive Framework. */
