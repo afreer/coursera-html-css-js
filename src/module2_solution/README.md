@@ -26,4 +26,10 @@ Files:
     js/
         script.js
     
+### Todo
+
+Todo: Make sections fill the available height in a row.
+Or make all sections the same height, i.e. the min height needed or something.
+https://css-tricks.com/fluid-width-equal-height-columns/?
+
 

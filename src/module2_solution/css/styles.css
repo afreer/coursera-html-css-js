@@ -14,7 +14,7 @@ body {
 h1 {
     text-align: center;
     font-size: 175%;
-    padding: 30px;
+    padding: 20px;
 }
 
 section {
@@ -24,6 +24,11 @@ section {
     background-color: #DFDFDF;
     margin: 10px;
     clear: both;
+
+/* flexbox */
+/*
+    height: 100%;
+*/
 }
 
 p {
@@ -78,11 +83,18 @@ ul {
 /* The container, container-fluid, and row classes apply to all media. */
 
 .container-fluid {
-  width: 100%;
+    width: 100%;
 }
 
 .row {
-  width: 100%;
+    width: 100%;
+
+/* flexbox */
+/*
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+*/
 }
 
 /* Mobile: [0, 768px) */
@@ -132,6 +144,11 @@ ul {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
+
+/* flexbox */
+/*
+    margin: auto;
+*/
   }
   .col-sm-1 {
     width: 8.33%;
