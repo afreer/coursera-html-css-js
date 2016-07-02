@@ -20,12 +20,15 @@ Files:
     
     css/
         styles.css
+        styles-responsive-flex.css
+        styles-responsive-float.css
     
     fonts/
+        placeholder # An empty file for git to add the folder.
     
     js/
         script.js
-    
+
 ### CSS responsive layout equal column height issue
 
 With the float based layout, adjacent sections with a different amount
@@ -42,7 +45,13 @@ I abstracted this into two different CSS styling files:
 You can experiment with the float vs. flex difference by uncommenting/commenting 
 the appropriate inclusion lines in index.html.
 
-caniuse.com revealed that "flexbox" support is very good, with 
+    <!--
+    <link rel="stylesheet" href="css/styles-responsive-float.css">
+    -->
+    <link rel="stylesheet" href="css/styles-responsive-flex.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+caniuse.com (http://caniuse.com/#search=flexbox) revealed that "flexbox" support is very good, with 
 the possible exception of Internet Explorer. I tested IE11 on an old
 Windows 7 box and it still looked good, at least for this small assignment.
 
