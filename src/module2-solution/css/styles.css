@@ -1,5 +1,5 @@
 
-/********** Base styles **********/
+/* Base styles */ 
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,22 +17,14 @@ h1 {
     padding: 20px;
 }
 
-.section-margin {
-    padding: 10px;
-    height: 100%;
-}
-
 section {
     border-width: 1px;
     border-style: solid;
     border-color: #000000;
     background-color: #DFDFDF;
-    /*margin: 10px;*/
     clear: both;
-    overflow: hidden;
-
-    /*box-sizing: content-box;*/
     height: 100%;
+    overflow: hidden;
 }
 
 p {
@@ -43,6 +35,11 @@ ul {
     padding: 5px 10px;
     list-style-type: square;
     list-style-position: inside;
+}
+
+.section-margin {
+    padding: 10px;
+    height: 100%;
 }
 
 .section-title {
