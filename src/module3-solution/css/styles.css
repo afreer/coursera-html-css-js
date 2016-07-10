@@ -1,0 +1,49 @@
+
+/*
+Colors:
+Black: 	#000000
+Grey: 	#808080
+
+Bootstrap default navbar border-color:
+		#e7e7e7
+*/
+
+.navbar {
+/*
+  background-color: #5F9EA0;
+  border-color: #000000;
+*/
+  border-radius: 0;
+}
+
+.menu-category {
+  background-color: #5F9EA0;
+}
+
+.divider-vertical {
+  height: 1px;
+  width: 100%;
+  background-color: #e7e7e7;
+}
+
+#navbar-content > ul > li {
+  color: white;
+}
+
+/*
+#navbar-content > ul > li {
+  border: 1px solid black;
+}
+*/
+
+@media (max-width: 768px) {
+  
+  /* The navbar-content spills into the overall navbar
+	when it's not in mobile mode, so we will scope
+	with a media query. */
+  #navbar-content {
+    background-color: #5F9EA0;
+  }
+  
+}
+
