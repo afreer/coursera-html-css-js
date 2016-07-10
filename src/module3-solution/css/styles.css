@@ -1,11 +1,15 @@
 
 /*
-Colors:
-Black: 	#000000
-Grey: 	#808080
 
-Bootstrap default navbar border-color:
-		#e7e7e7
+Colors:
+
+Black: 		#000000
+White: 		#FFFFFF
+Grey: 		#808080
+CadetBlue: 	#5F9EA0
+AliceBlue:	#F0F8FF
+Bootstrap default navbar border-color: #e7e7e7
+
 */
 
 .navbar {
@@ -17,7 +21,7 @@ Bootstrap default navbar border-color:
 }
 
 .menu-category {
-  background-color: #5F9EA0;
+  background-color: #e7e7e7;
 }
 
 .divider-vertical {
@@ -26,15 +30,14 @@ Bootstrap default navbar border-color:
   background-color: #e7e7e7;
 }
 
-#navbar-content > ul > li {
-  color: white;
+.section-padding {
+  padding: 15px;
 }
 
-/*
-#navbar-content > ul > li {
-  border: 1px solid black;
+section {
+  padding: 15px;
+  margin: 0;
 }
-*/
 
 @media (max-width: 768px) {
   
@@ -42,7 +45,7 @@ Bootstrap default navbar border-color:
 	when it's not in mobile mode, so we will scope
 	with a media query. */
   #navbar-content {
-    background-color: #5F9EA0;
+    background-color: #F0F8FF;
   }
   
 }
